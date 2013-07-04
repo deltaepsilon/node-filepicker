@@ -1,0 +1,38 @@
+{
+  "name": "node-filepicker",
+  "version": "0.0.0",
+  "description": "Filepicker.io client",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/deltaepsilon/node-filepicker.git"
+  },
+  "keywords": [
+    "node",
+    "filepicker.io",
+    "ink",
+    "inkfilepicker.com"
+  ],
+  "dependencies": {
+    "superagent": "~0.15.2",
+    "qs": "~0.6.5",
+    "node-promise": "~0.5.6"
+  },
+  "devDependencies": {
+    "grunt-mocha-test": "~0.5.0",
+    "grunt": "~0.4.1",
+    "grunt-contrib-watch": "~0.4.4",
+    "mocha": "~1.12.0",
+    "chai": "~1.7.2"
+  },
+  "author": "Christopher Esplin",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "9654d691b9c84c0e45bc541c6cb90cf98dfe6255",
+  "bugs": {
+    "url": "https://github.com/deltaepsilon/node-filepicker/issues"
+  }
+}
