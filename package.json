@@ -1,6 +1,6 @@
 {
   "name": "node-filepicker",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Filepicker.io client",
   "main": "index.js",
   "scripts": {
