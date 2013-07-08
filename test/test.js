@@ -25,6 +25,7 @@ suite('Filepicker', function () {
       assert.equal(metadata.size, imageBlob.size, 'Correct image uploads');
       assert.equal(metadata.filename, imageBlob.filename, 'Correct image name');
       assert.equal(metadata.mimetype, imageBlob.type, 'Correct mimetype');
+      assert.equal(metadata.url, imageBlob.url, 'Returns url with stat');
       done();
     })
   });
